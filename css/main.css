@@ -1,0 +1,590 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background:  rgb(255, 207, 189);
+    text-shadow: none;
+}
+
+::selection {
+    background:  rgb(255, 207, 189);
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+  font-family: 'nimbus-bold';
+  src: url('../fonts/nimbus-bold.otf');
+}
+@font-face {
+  font-family: 'nimbus-reg';
+  src: url('../fonts/nimbus-reg.otf');
+}
+@font-face {
+  font-family: 'texgyro-reg-cond';
+  src: url('../fonts/texgyreheroscn-regular.otf');
+}
+
+
+html, body{
+  background: rgb(255, 214, 0);
+  color: rgb(255, 207, 189);
+  overflow: hidden;
+}
+
+img {
+     width: 100%;
+     height: auto;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin 0;
+  padding: 0;
+}
+
+.blueBg{
+  background-color: #2b42d9;
+  mix-blend-mode: multiply;
+}
+.pinkBg{
+  background-color: magenta;
+  mix-blend-mode: multiply;
+}
+.orangeBg{
+  background-color: orange;
+  mix-blend-mode: multiply;
+}
+.redBg{
+  background-color: red;
+  mix-blend-mode: multiply;
+}
+
+body::-webkit-scrollbar{
+  display:none;
+}
+
+.headBanner{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  /* width: 100%; */
+  position: absolute;
+  /* z-index: 300; */
+  bottom: 0;
+  width: 10rem;
+  /* background-color: blue; */
+}
+
+.socialT {
+  text-decoration: none;
+  color: transparent;
+}
+.socialTShow {
+  color: black;
+}
+
+.pageTitle{
+  width: 15%;
+  /* margin-left: 10%; */
+  /* margin-top: 1%; */
+  /* margin-bottom: 10%; */
+  /* background-color: white; */
+}
+
+/* .fb:hover{
+  background-color: blue;
+} */
+
+
+h1{
+  font-family: 'nimbus-bold', sans-serif;
+  letter-spacing: -0.15rem;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+ .menuBar{
+    /* background: red; */
+    left: 0;
+    width: 30%;
+    position: absolute;
+    height: auto;
+    -webkit-text-stroke: 2px black;
+ }
+ .wire{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    pointer-events: none;
+    width: 100%;
+    overflow: hidden;
+    /* background-image: url('../img/wire01.png'); */
+    background-position: 10% 0%;
+ }
+ /* .wire1 img{
+   width: 100%;
+   height: auto;
+ } */
+ .wire1 {
+   overflow-x: hidden;
+ }
+
+   .menuNav{
+     font-family: 'nimbus-bold', sans-serif;
+     letter-spacing: -0.15rem;
+     font-size: 4.5rem;
+     margin: 0;
+     padding: 0;
+     margin-bottom: 3rem;
+     text-decoration: none;
+     list-style-type: none;
+     cursor: url('../img/cursor.svg') 50 50, pointer;
+
+   }
+
+   .menuNav li{
+     margin-top: 3rem;
+     margin-left: 2rem;
+     /* filter: blur(3px); */
+     /* transition: .5s ease-out; */
+
+   }
+   .menuNav li:hover{
+     color: black;
+     /* color: rgb(255, 207, 189); */
+     -webkit-text-stroke: 1px rgb(255, 207, 189) ;
+     /* filter: blur(0px); */
+   }
+
+.wrapperAll{
+  background: rgb(255, 52, 0);
+  color: rgb(255, 207, 189);
+  -webkit-text-stroke: 2px black;
+  right: 0;
+  height: 100%;
+  position: absolute;
+  overflow-y: scroll;
+  box-shadow: -3px 0px 8px black;
+  cursor: url('../img/cursor2.svg') 50 50, pointer;
+  width: 68%;
+  /* margin-right: 10%; */
+
+}
+
+
+.wrapperAll::-webkit-scrollbar{
+  display:none;
+}
+.wrapperAll:hover{
+  color: black;
+}
+
+
+
+  .folder{
+    height: auto;
+        margin-top: 7rem;
+  }
+    .contImgHolder{
+      width: 100%;
+      /* height: 40rem; */
+      background-color: black;
+      display: flex;
+      /* border-left: 5px solid white; */
+      overflow: hidden;
+    }
+    .contImg{
+      width: 30%;
+      margin: 0 auto;
+    }
+
+    /* .noFi{
+      font-size: 4.5rem;
+    }
+    .fixedHead{
+      font-size: 4.5rem;
+      position: fixed;
+    } */
+
+    /* .fixedHead{
+      font-size: 4.5rem;
+      position: fixed;
+    } */
+
+    .folder p{
+      color: black;
+      font-size: 2rem;
+      line-height: 2rem;
+      font-family: 'texgyro-reg-cond', sans-serif;
+      margin-left: 2rem;
+      margin-right: 8rem;
+      -webkit-text-stroke: 0px black;
+    }
+
+    .closeButton{
+      position: sticky;
+      top: 3rem;
+      right:0;
+      margin:0;
+      font-family: 'nimbus-bold', sans-serif;
+      letter-spacing: -0.15rem;
+      font-size: 4rem;
+      margin: 0 2rem 3rem 2rem;
+      text-align-last: justify;
+      width: 90%;
+    }
+
+iframe{
+  top: 20%;
+  position: absolute;
+  transform: scale(3);
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
